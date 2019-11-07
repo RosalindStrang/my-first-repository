@@ -1,0 +1,44 @@
+body {
+
+color: rgb(143,188,143);
+font-family:  Arial,Helvetica Neue,Helvetica,sans-serif;;
+margin: 0px;
+
+}
+
+.jumbotron {
+  background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+h1 {
+text-align: center;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-size: 5em
+}
+
+h2 {
+
+text-align-last: left;
+font-size: 2.5em
+
+}
+
+#social-buttons button
+{
+color: white
+}
+.btn-twitter {
+background: #00acee;
+border-color: #009ad5;
+}
+.btn-facebook {
+background: #4868ac;
+border-color: #314776;
+}
+.btn-pintrest {
+  background: #b62f26;
+  border-color: #b62f26;
+}
