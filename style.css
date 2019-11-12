@@ -1,0 +1,125 @@
+
+body {
+
+color: rgb(143,188,143);
+font-family: "Gill Sans", sans-serif;
+font-size: 25px;
+margin: 0px;
+}
+
+
+
+
+.topnav {
+  background-color: #333;
+    overflow: hidden;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    opacity: 80%;
+}
+
+header img {
+  height: 70px;
+  float: left;
+}
+
+.topnav a {
+  float: right;
+    color: #f2f2f2;
+    font-size: 15px;
+    font-family:"Roboto Condensed" , sans-serif;
+    padding: 12px 16px;
+    text-decoration: underline black;
+    text-decoration-color: #90EE90;
+    font-size: 20px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.topnav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: rgb(143,188,143);
+  color: white;
+}
+
+
+.jumbotron {
+  background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+
+
+
+h1 {
+text-align: center;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-size: 6em;
+font-family: "Roboto Condensed" , sans-serif;
+margin-top: 10px;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  font-size: 40px;
+  font-family: "Roboto Condensed" , sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+li#upper {
+  margin-left: 0%
+}
+li#middle {
+  margin-left:15%
+}
+li#lower {
+  margin-left:30%
+}
+li#name {
+  margin-left: 0%;
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+
+
+h2 {
+
+text-align-last: left;
+font-size: 2.5em;
+display: flex;
+justify-content: centre;
+align-items: centre;
+flex-direction:column;
+
+}
+
+
+
+
+#social-buttons button
+{
+color: white
+}
+.btn-twitter {
+background: #00acee;
+border-color: #009ad5;
+}
+.btn-facebook {
+background: #4868ac;
+border-color: #314776;
+}
+.btn-pintrest {
+  background: #b62f26;
+  border-color: #b62f26;
