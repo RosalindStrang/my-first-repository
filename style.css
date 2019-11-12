@@ -66,14 +66,15 @@ font-family: "Roboto Condensed" , sans-serif;
 margin-top: 10px;
 }
 
-
-
-
-ul {
+#title-list {
   list-style-type: none;
   font-size: 40px;
   font-family: "Roboto Condensed" , sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li#upper {
@@ -91,9 +92,6 @@ li#name {
   font-size: 20px;
 }
 
-
-
-
 h2 {
 
 text-align-last: left;
@@ -101,12 +99,23 @@ font-size: 2.5em;
 display: flex;
 justify-content: centre;
 align-items: centre;
-flex-direction:column;
-
+flex-direction: column;
 }
 
+#list-items {
+  list-style-type: disc;
+  color: rgb(143,188,143);
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  margin: 0px;
+}
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 #social-buttons button
 {
