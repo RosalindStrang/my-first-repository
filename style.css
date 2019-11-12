@@ -91,7 +91,9 @@ li#name {
   font-size: 20px;
 }
 
-
+.container-fluid {
+  background-image: url(plant.jpg)
+}
 
 
 h2 {
