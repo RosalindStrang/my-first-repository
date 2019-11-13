@@ -7,9 +7,6 @@ font-size: 25px;
 margin: 0px;
 }
 
-
-
-
 .topnav {
   background-color: #333;
     overflow: hidden;
@@ -47,16 +44,12 @@ header img {
   color: white;
 }
 
-
 .jumbotron {
   background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
   background-size: cover;
   background-attachment: fixed;
   min-height: 600px;
 }
-
-
-
 
 h1 {
 text-align: center;
@@ -66,14 +59,15 @@ font-family: "Roboto Condensed" , sans-serif;
 margin-top: 10px;
 }
 
-
-
-
-ul {
+#title-list {
   list-style-type: none;
   font-size: 40px;
   font-family: "Roboto Condensed" , sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li#upper {
@@ -97,17 +91,37 @@ li#name {
 
 
 h2 {
-
-text-align-last: center;
-font-size: 5em;
-display: flex;
-justify-content: centre;
-align-items: centre;
-flex-direction:column;
-color: white;
-
+  text-align-last: center;
+  font-size: 5em;
+  display: flex;
+  justify-content: centre;
+  align-items: centre;
+  flex-direction: column;
+  color: white;
 }
 
+.bold {
+  color: rgb(143,188,143);
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#list-items {
+  list-style-type: disc;
+  color: rgb(143,188,143);
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 #social-buttons button
 {
