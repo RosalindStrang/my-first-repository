@@ -108,8 +108,21 @@ color: white;
 
 }
 
+img#graphic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 80px;
+
+}
+
+div#list-items {
+  font-size: 10px;
+}
+
 .col-sm-4 {
   background-color: white;
+
 }
 
 #social-buttons button
