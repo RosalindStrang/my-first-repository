@@ -92,7 +92,7 @@ li#name {
 }
 
 .container-fluid {
-  background-image: url(plant.jpg)
+  background-image: url(jumper.jpeg)
 }
 
 
@@ -116,8 +116,9 @@ img#graphic {
 
 }
 
-div#list-items {
-  font-size: 10px;
+div.list-items {
+  font-size: 2px;
+  color: black;
 }
 
 .col-sm-4 {
