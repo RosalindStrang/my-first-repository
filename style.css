@@ -148,19 +148,44 @@ margin-top: 20px;
 
 #top-tips-body {
   background-color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Roboto Condensed" , sans-serif;
 }
 
-
-img#graphic {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   padding-bottom: 80px;
-   img
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 20px;
  }
 
+ .column {
+     flex: 50%;
+     max-width: 50%;
+     padding: 5px;
+
+   }
+
+   .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.column p {
+  margin-bottom: 3em;
+}
+
+#graphic-column {
+  background-color: white;
+  font-size: 30px;
+  font-family: "Roboto Condensed" , sans-serif;
+  padding: 20px;
+}
 
 
 /*contact us*/
