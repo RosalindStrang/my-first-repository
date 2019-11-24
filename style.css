@@ -1,28 +1,17 @@
-
-body {
-
-color: rgb(143,188,143);
-font-family: "Gill Sans", sans-serif;
-font-size: 25px;
-margin: 0px;
-}
-
+/*Navbar*/
 .topnav {
-  background-color: #333;
+    background-color: #333;
     overflow: hidden;
-    height: 70px;
+    height: 80px;
     position: fixed;
     width: 100%;
-    opacity: 80%;
-}
+    opacity: 70%;
+    z-index: 9999;
 
-header img {
-  height: 70px;
-  float: left;
 }
 
 .topnav a {
-  float: right;
+    float: right;
     color: #f2f2f2;
     font-size: 15px;
     font-family:"Roboto Condensed" , sans-serif;
@@ -32,100 +21,234 @@ header img {
     font-size: 20px;
     height: 80px;
     padding-top: 20px;
+
 }
 
 .topnav a:hover {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 
-.topnav a:active {
-  background-color: rgb(143,188,143);
-  color: white;
+.topnav a.active {
+    background-color: rgb(143,188,143);
+    color: white;
 }
 
-.jumbotron {
+.container-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+/*Home page*/
+
+header img {
+  height: 70px;
+  float: left;
+  margin-top: 0%;
+}
+
+#home-page {
+  height: 100%;
   background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
-  background-size: cover;
+  background-size: 100%;
   background-attachment: fixed;
-  min-height: 600px;
+  min-height: 800px;
+  padding: 0px;
 }
 
 h1 {
+padding-top: 150px;
 text-align: center;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-font-size: 6em;
-font-family: "Roboto Condensed", sans-serif;
-margin-top: 10px;
+font-size: 10em;
+font-family: "Roboto Condensed" , sans-serif;
+color: rgb(143,188,143);
+margin-top: 20px;
 }
 
 #title-list {
+  font-size: 2em;
+  font-family: "Roboto Condensed" , sans-serif;
+  color: rgb(143,188,143);}
+
+#quote {
   list-style-type: none;
   font-size: 40px;
   font-family: "Roboto Condensed", sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-top: 20px;
 }
 
-ul {
-  list-style-type: none;
+#upper {
+  margin-left: 10%
 }
-
-li#upper {
-  margin-left: 0%
-}
-li#middle {
+#middle {
   margin-left:15%
 }
-li#lower {
-  margin-left:30%
+#lower {
+  margin-left:20%
 }
-li#name {
-  margin-left: 0%;
+#name {
+  margin-left: 10%;
   font-style: italic;
-  font-size: 20px;
-}
-
-.container-fluid {
-  background-image: url(plant.jpg)
+  font-size: 15px;
 }
 
 
-h2 {
+
+
+/*Info page*/
+
+#why-page {
+  background-image: url(jumper.jpeg)
+}
+
+#why-title {
+  color: rgb(143,188,143);
   text-align-last: center;
-  font-size: 5em;
+  font-size: 80px;
   display: flex;
   justify-content: centre;
   align-items: centre;
-  flex-direction: column;
+  flex-direction:column;
   color: white;
 }
 
-.bold {
-  color: rgb(143,188,143);
-  font-family: 'Amatic SC', cursive;
-  font-size: 32px;
-  font-weight: bold;
-  margin: 0px;
+#why-body {
+  font-size: 30px;
+  font-family: "Roboto Condensed" , sans-serif;
+  color: rgb(70, 70, 72);
 }
 
-#list-items {
-  list-style-type: disc;
-  color: rgb(143,188,143);
-  font-family: 'Amatic SC', cursive;
-  font-size: 25px;
-  margin: 0px;
+
+/*Top tips*/
+
+#top-tips-header{
+  text-align-last: center;
+  font-size: 80px;
+  display: flex;
+  justify-content: centre;
+  align-items: centre;
+  flex-direction:column;
+
 }
 
-.center {
+#top-tips-subheader{
+  background-color: white;
+  font-size: 40px;
+  font-family: "Roboto Condensed" , sans-serif;
+
+}
+
+#top-tips-body {
+  background-color: white;
+  font-size: 30px;
+  font-family: "Roboto Condensed" , sans-serif;
+}
+
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 20px;
+ }
+
+ .column {
+     flex: 50%;
+     max-width: 50%;
+     padding: 5px;
+
+   }
+
+   .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 90%;
+  max-height: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  border: 1px solid black;
 }
 
-#social-buttons button {
-  color: white;
-  text-align: center;
+.column p {
+  margin-bottom: 3em;
+}
+
+#graphic-column {
+  background-color: white;
+  font-size: 30px;
+  font-family: "Roboto Condensed" , sans-serif;
+  padding: 20px;
+}
+
+#icons {
+  width: 70%;
+  height: 40%;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Roboto Condensed" , sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+
+#dateandtime {
+  font-family: "Roboto Condensed" , sans-serif;
+  font-size: 30px;
+}
+
+#location {
+  font-family: "Roboto Condensed" , sans-serif;
+  font-size: 30px;
+}
+
+#event-description {
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+
+#events-map {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#tube-map-img {
+  width: 100%;
+  display: block;
+  height: auto;
+  position: relative;
+  }
+
+#LFN {
+  position: relative;
+  width: 33PX;
+  height: 40PX;
+}
+
+#Crep {
+    position: absolute;
+    top:53px;
+    left:350px;
+    width: 7%;
+    height: 11%;
+}
+
+#DB {
+    position: absolute;
+    top:53px;
+    left:350px;
+    width: 7%;
+    height: 11%;
+}
+/*contact us*/
+
+#social-buttons button
+{
+color: white
+align: center;
 }
 
 .btn-twitter {

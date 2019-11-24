@@ -1,97 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="java/jscript.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scaled=1.0">
-  <style>
-  body {font-family: 'Amatic SC', cursive;}
-  </style>
-
     <title>Sustainable fashion page</title>
 </head>
-<body>
 
+
+
+<!--Open body------>
+<body>
+<!--Navbar------>
 <header>
   <div class="topnav">
   <img src="https://cdn0.iconfinder.com/data/icons/sustainable-fashion/99/eco_friendly_tailor_made-512.png">
-  <a class="active" href="#home">Home</a>
-  <a href="#Info">Info</a>
-  <a href="#Swap events">Swap events</a>
-  <a href="#Talks">Talks</a>
-  <a href="#Contact">Contact</a>
-</div>
+  <a class="active" href="#home-page">Home</a>
+  <a class="active" href="#why-page">Info</a>
+  <a class="active" href="#swap-events">Swap events</a>
+  <a class="active" href="#talks-events">Talks</a>
+  <a class="active" href="#Contact">Contact</a>
+  </div>
 </header>
+<!--Navbar------>
+
+
 
 <!--Title page----->
-<div class="container">
-  <div class="jumbotron">
-      <h1>Clothes title tbc</h1>
-
-    <div id="title-list">
-     <ul>
+<div id="home-page" class="container-fluid">
+    <h1>Sustainable Fashion</h1>
+<div id="title-list">
+   <ul id="quote">
         <li id="upper">"Buy less.</li>
         <li id="middle">Choose well.</li>
         <li id="lower">Make it last."</li>
         <li id="name">Vivienne Westwood</li>
-     </ul>
-  </div>
+   </ul>
+</div>
+</div>
 
 <!--End of title page----->
 
 <!--Info page------>
 
+<div id="why-page" class="container-fluid">
+      <h2 id="why-title">Why choose slow fashion?</h2>
+  <div id="why-body">
+      <p class="bold">The fast fashion industry is one of the most polluting and harmful industries in the world. By choosing slow fashion you will:</p>
+
+   <div class="list-items">
+      <ul>
+          <li><b>Reduce waste</b> – huge amounts of fashion go to landfills, with about 60% of all clothing ending up there within a year of being made. If we shop second-hand, we will encourage retailers to produce less clothing, and will reduce the amount that is wasted and left for landfill.</li>
+          <li><b>Save water</b> - it takes 700 gallons of water to make a single cotton tshirt (that's the amount a person normally consumes over a three year period). By buying longer-lasting clothing and less of it, we will waste less water.</li>
+          <li><b>Lower our carbon footprint</b> - the fashion industry accounts for 8% of the world's greenhouse gas emissions, due to the power used in production and in transportation. Choosing locally made clothing or swapping clothes/buying second hand will reduce your carbon footprint.</li>
+          <li><b>Support animal welfare</b> - many animals are harmed by the pollutants which are released into the environment by the fashion industry, as chemicals used in clothing production accumulate in their water supply. By buying from sustainable brands you will be ensuring that your clothes have been made ethically.</li>
+          <li><b>Support human rights</b> - retailers keep their clothing cheap by producing them in factories where there are poor conditions and low wages. By choosing sustainable fashion you will be refusing to condone this treatment of  workers, and supporting locals who are paid fair wages.</li>
+      </ul>
+   </div>
+   </div>
+</div>
+
+<!--Top tips------>
+
 <div class="container-fluid">
-    <div id="whyslow">
-      <h2>Why choose slow fashion?</h2>
-          <p class="bold">The fast fashion industry is one of the most polluting and harmful industries in the world. By choosing slow fashion you will:</p>
-          <div>
-          <div id="list-items">
-            <ul>
-              <li><b>Reduce waste</b> – huge amounts of fashion go to landfills, with about 60% of all clothing ending up there within a year of being made. If we shop second-hand, we will encourage retailers to produce less clothing, and will reduce the amount that is wasted and left for landfill.</li>
-              <li><b>Save water</b> - it takes 700 gallons of water to make a single cotton tshirt (that's the amount a person normally consumes over a three year period). By buying longer-lasting clothing and less of it, we will waste less water.</li>
-              <li><b>Lower our carbon footprint</b> - the fashion industry accounts for 8% of the world's greenhouse gas emissions, due to the power used in production and in transportation. Choosing locally made clothing or swapping clothes/buying second hand will reduce your carbon footprint.</li>
-              <li><b>Support animal welfare</b> - many animals are harmed by the pollutants which are released into the environment by the fashion industry, as chemicals used in clothing production accumulate in their water supply. By buying from sustainable brands you will be ensuring that your clothes have been made ethically.</li>
-              <li><b>Support human rights</b> - retailers keep their clothing cheap by producing them in factories where there are poor conditions and low wages. By choosing sustainable fashion you will be refusing to condone this treatment of  workers, and supporting locals who are paid fair wages.</li>
-            </ul>
-          </div>
+     <h2 id="top-tips-header" >What can I do to help?</h2>
+       <p id="top-tips-subheader" class="bold"> Here are our top tips for reducing your fashion footprint:<p>
+
+ <!--First two rows------>
+<div id="top-tips-body" class="row">
+    <div class="column">
+           <b>Buy second hand</b>
+           <p>You don't just need to go to the high street when shopping! Look around your local charity shops to find preloved pieces - this is a great way to find rare, unique items and to save money at the same time</p>
+    </div>
+
+    <div class="column">
+       <b>Swap with friends and family</b>
+       <p>Always loved your best friend's dress which she's now bored of? A great way to save money and to update your wardrobe sustainably is to swap clothes with the people around you - that way you don't waste clothes which you don't want, and you get a whole new wardrobe in the process!</p>
+    </div>
+
+ <!--Botton 4 rows------>
+  <div id="graphic-column" class="row">
+    <div class="column">
+    <b>Love your clothes for life</b>
+      <p>Make sure that you only buy clothes that you are sure you will wear time and time again - this ensures that they won't end up being wasted at the back of your closet, and eventually going to landfill</p>
+
+   <b>Learn to sew</b>
+      <p>Some basic tailoring skills will mean that you can repair clothes so that they last longer, and also alter them completely - this way you can have a brand new item without buying anything at all</p>
+
+   <b>Quality not quantity</b>
+      <p>Buy clothes that are durable and made to last so that you won't have to end up throwing them out in a few months' time
       </div>
 
-      <br>
-
-          <img src="Sustainable Fashion Graphic.jpg" alt="Sustainable Fashion" class="center">
-
+    <div class="column">
+       <img src="sustainable fashion graphic.jpg">
     </div>
-</div>
-  <h2>What can I do to help?</h2>
-    <p class="bold"> Here are our top tips for reducing your fashion footprint:<p>
-  <ol>
-      <li><b>Buy second hand</b></li>
-        <p>You don't just need to go to the high street when shopping! Look around your local charity shops to find preloved pieces - this is a great way to find rare, unique items and to save money at the same time</p>
-      <li><b>Swap with friends and family</b></li>
-        <p>Always loved your best friend's dress which she's now bored of? A great way to save money and to update your wardrobe sustainably is to swap clothes with the people around you - that way you don't waste clothes which you don't want, and you get a whole new wardrobe in the process!</p>
-      <li><b>Learn to sew</b></li>
-        <p>Some basic tailoring skills will mean that you can repair clothes so that they last longer, and also alter them completely - this way you can have a brand new item without buying anything at all</p>
-      <li><b>Quality not quantity</b></li>
-        <p>Buy clothes that are durable and made to last so that you won't have to end up throwing them out in a few months' time</p>
-      <li><b>Only buy it if you feel GREAT</b></li>
-        <p>Make sure that you only buy clothes that you are sure you will wear time and time again - this ensures that they won't end up being wasted at the back of your closet, and eventually going to landfill</P>
+
 </div>
 
-<!---End of info page------>
+
+<!---End of Top tips page------>
 
 
 
 
 
 <!--Swap events page------>
-<div>
+<div id="swap-events" class="row">
   <h2>Clothes swaps near you</h2>
+
   <p>embed map-seperate html file</p>
 </div>
-<div>
 <!--End of swap events page------>
 
 
@@ -99,15 +121,68 @@
 
 
 <!--Talks and events page-------->
-  <h2>Talks and events</h2>
-  <p>Links to talks with hovering images</p>
+<div id="talks-events">
+  <div id="talks-title" class="row">
+    <h2>Talks and events</h2>
+  </div>
+  <div id="talks-icons" class="row">
+    <div class="col-sm-4">
+      <img id="icons" src="vogue.jpeg">
+        <h3>London Fashion Networking: Sustainable Fashion & Media</h3>
+          <div id="dateandtime">
+            <p>3 December 2019</p>
+          </div>
+          <div id="location">
+            <p>McQueen, 55-61 Tabernacle Street, EC2A 4AA</p>
+          </div>
+          <div id="event-description">
+            <p>Express fashion networking event. Meet & mingle with industry insiders and fashion lover from the sustainable fashion and media world.</p>
+          </div>
+     </div>
+    <div class="col-sm-4">
+      <img id="icons" src="sewing.jpg">
+        <h3>Clothing Repair & Upcycling Workshop with Lydia Crimp</h3>
+          <div id="dateandtime">
+            <p>10am 30 November 2019</p>
+          </div>
+          <div id="location">
+            <p>Benk + Bo, 4-6 Gravel Lane, E1 7AW</p>
+          </div>
+          <div id="event-description">
+            <p>West End costume supervisor Lydia Crimp hosts a mending, patching and upcycling workshop for beginners.</p>
+          </div>
+    </div>
+    <div class="col-sm-4">
+      <img id="icons" src="nofashion.jpg">
+        <h3>Debate: Boycotting fast fashion - good for the planet or bad for workers?</h3>
+          <div id="dateandtime">
+            <p>6pm 29 November 2019</p>
+          </div>
+          <div id="location">
+            <p>SOAS, 10 Thornhaugh Street, WC1H 0XG</p>
+          </div>
+          <div id="event-description">
+            <p>Panel debate on the impact of the fast-fashion boycott proposed by Extinction Rebellion.</p>
+          </div>
+        </div>
+  </div>
+
+
+<div class="container" id="events-map">
+  <img src="tube-map.png" id="tube-map-img" alt="Avatar" class="image">
+  <div class="overlay">
+    <img src="pin-icon.png" id="LFN">
+    <img src="pin-icon.png" id="CRep">
+    <img src="pin-icon.png" id="DB">
+  </div>
 </div>
-<div>
+
 <!--End of Talks and events page------->
 
 
 
 <!--Contact us page------>
+<div class="container-fluid" id="contact-us">
   <h3>Contact us!</h3>
     <p>link to google forum</p>
 
@@ -118,9 +193,12 @@
     <button class="btn-lg btn-pintrest">Pinterest</button>
 </div>
 </div>
+</div>
 <!--End of contact us page-->
 
 
 
 </body>
+<!--Close body------>
+
 </html>
