@@ -39,7 +39,7 @@ header img {
   color: white;
 }
 
-.topnav a.active {
+.topnav a:active {
   background-color: rgb(143,188,143);
   color: white;
 }
@@ -55,14 +55,14 @@ h1 {
 text-align: center;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 font-size: 6em;
-font-family: "Roboto Condensed" , sans-serif;
+font-family: "Roboto Condensed", sans-serif;
 margin-top: 10px;
 }
 
 #title-list {
   list-style-type: none;
   font-size: 40px;
-  font-family: "Roboto Condensed" , sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -123,10 +123,11 @@ h2 {
   width: 50%;
 }
 
-#social-buttons button
-{
-color: white
+#social-buttons button {
+  color: white;
+  text-align: center;
 }
+
 .btn-twitter {
 background: #00acee;
 border-color: #009ad5;
