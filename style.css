@@ -188,11 +188,31 @@ margin-top: 20px;
 }
 
 #icons {
-  width: 80%;
-  height: 50%;
+  width: 70%;
+  height: 40%;
+  align-items: center;
 }
 
+h3 {
+  font-family: "Roboto Condensed" , sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
 
+#dateandtime {
+  font-family: "Roboto Condensed" , sans-serif;
+  font-size: 30px;
+}
+
+#location {
+  font-family: "Roboto Condensed" , sans-serif;
+  font-size: 30px;
+}
+
+#event-description {
+  font-family: sans-serif;
+  font-size: 20px;
+}
 /*contact us*/
 
 #social-buttons button
