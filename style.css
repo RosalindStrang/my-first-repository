@@ -52,6 +52,7 @@ header img {
   background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
   background-size: 100%;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   min-height: 800px;
   padding: 0px;
 }
