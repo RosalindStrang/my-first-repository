@@ -210,40 +210,16 @@ h3 {
 
 }
 
-#events-map {
+.mapouter {
   position: relative;
   width: 100%;
   max-width: 1000px;
 }
 
-#tube-map-img {
-  width: 100%;
-  display: block;
-  height: auto;
-  position: relative;
-  }
-
-#LFN {
-  position: relative;
-  width: 33PX;
-  height: 40PX;
+#google-map {
+  text-align: centre;
 }
 
-#Crep {
-    position: absolute;
-    top:53px;
-    left:350px;
-    width: 7%;
-    height: 11%;
-}
-
-#DB {
-    position: absolute;
-    top:53px;
-    left:350px;
-    width: 7%;
-    height: 11%;
-}
 /*contact us*/
 
 #social-buttons button
