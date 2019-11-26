@@ -29,7 +29,7 @@
     color: white;
 }
 
-.topnav a.active {
+.topnav a:active {
     background-color: rgb(143,188,143);
     color: white;
 }
