@@ -75,7 +75,7 @@ hr {
 
 #title-list {
   font-size: 2em;
-  font-family: "Roboto Condensed" , sans-serif;
+  Font-family:"Montserrat" , sans-serif;
   color:  #cc6600;}
 
 #quote {
@@ -209,7 +209,7 @@ hr {
 
 #top-tips-header{
   text-align-last: center;
-  font-family: 'Permanent Marker', cursive;
+  Font-family:"Montserrat" , sans-serif;
   font-size: 80px;
   display: flex;
   justify-content: centre;
@@ -219,7 +219,7 @@ hr {
 
 #top-tips-subheader{
   font-size: 40px;
-  font-family: "Roboto Condensed" , sans-serif;
+  Font-family:"Montserrat" , sans-serif;
 }
 
 #top-tips-body {
@@ -227,6 +227,9 @@ hr {
   font-family: "Roboto Condensed" , sans-serif;
 }
 
+#column1 {
+  background-color: black; 
+}
 
 
 .service-box {
