@@ -62,15 +62,15 @@ padding-top: 150px;
 text-align: center;
 font-size: 10em;
 font-family: 'Montserrat', sans-serif;
-text-shadow: 2px 2px 	#111111;
-color: #111111;
+text-shadow: 2px 2px 	#ffffff;
+color:  #b35900;
 margin-top: 20px;
 }
 
 #title-list {
   font-size: 2em;
   font-family: "Roboto Condensed" , sans-serif;
-  color: rgb(143,188,143);}
+  color:  #cc6600;}
 
 #quote {
   list-style-type: none;
@@ -81,16 +81,16 @@ margin-top: 20px;
 }
 
 #upper {
-  margin-left: 5%
+  margin-left: 14%
 }
 #middle {
-  margin-left:10%
+  margin-left: 35%
 }
 #lower {
-  margin-left:15%
+  margin-left: 60%
 }
 #name {
-  margin-left: 10%;
+  margin-left: 14%;
   font-style: italic;
   font-size: 20px;
 }
@@ -101,7 +101,7 @@ margin-top: 20px;
 /*Info page*/
 
 #why-page {
-  background-image: url(jumper.jpeg);
+  background-image: url(orange-image.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ margin-top: 20px;
   color: rgb(143,188,143);
   text-align-last: center;
   font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: centre;
   align-items: centre;
@@ -194,7 +194,7 @@ margin-top: 20px;
 /*Top tips*/
 
 #top-tips-page {
-  background-image: url(marble-background.jpg);
+  background-image: url(jumper.jpeg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
