@@ -292,6 +292,129 @@ h3 {
 }
 
 
+
+
+.service-box {
+  max-width: 400px;
+}
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(255, 134, 227, 0.9);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-category,
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-name {
+  padding: 0 15px;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-name {
+  font-size: 18px;
+}
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+.portfolio-box:focus {
+  outline: 0;
+}
+@media (min-width: 768px) {
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-name {
+    font-size: 22px;
+  }
+}
+.text-primary {
+  color: #ff86e3 !important;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn-primary {
+  background-color: #ff86e3;
+  border-color: #ff86e3;
+}
+.btn-light {
+  color: #ff86e3;
+}
+
+.btn-light:active,
+.btn-light:focus,
+.btn-light:hover {
+  color: #fff;
+  background-color: #9669fe !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  color: #fff;
+  background-color: #9669fe !important;
+}
+.btn-primary:active,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 190, 277, 0.5) !important;
+}
+
+#des {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+
 /*contact us*/
 
 #social-buttons button
