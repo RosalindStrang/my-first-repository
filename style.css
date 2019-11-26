@@ -62,15 +62,15 @@ padding-top: 150px;
 text-align: center;
 font-size: 10em;
 font-family: 'Montserrat', sans-serif;
-text-shadow: 2px 2px 	#111111;
-color: #111111;
+text-shadow: 2px 2px 	#ffffff;
+color:  #b35900;
 margin-top: 20px;
 }
 
 #title-list {
   font-size: 2em;
   font-family: "Roboto Condensed" , sans-serif;
-  color: rgb(143,188,143);}
+  color:  #cc6600;}
 
 #quote {
   list-style-type: none;
