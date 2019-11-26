@@ -2,7 +2,7 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
-    height: 80px;
+    height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,8 +20,8 @@
     text-decoration: underline black;
     text-decoration-color: #90EE90;
     font-size: 20px;
-    height: 80px;
-    padding-top: 20px;
+    height: 60px;
+    padding-top: 15px;
 
 }
 
