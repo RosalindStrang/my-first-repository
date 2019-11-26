@@ -53,6 +53,7 @@ header img {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 800px;
   padding: 0px;
 }
@@ -62,8 +63,8 @@ padding-top: 150px;
 text-align: center;
 font-size: 10em;
 font-family: 'Montserrat', sans-serif;
-text-shadow: 2px 2px 	#111111;
-color: #111111;
+text-shadow: 2px 2px #ffffff;
+color: #b35900;
 margin-top: 20px;
 }
 
@@ -76,7 +77,7 @@ margin-top: 20px;
   list-style-type: none;
   font-size: 45px;
   font-family: 'Homemade Apple', cursive;
-  color: #000000;
+  color: #ffffff;
   padding-top: 20px;
 }
 
@@ -280,7 +281,7 @@ h3 {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  text-align: centre;
+  text-align: center;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -289,20 +290,28 @@ h3 {
 
 /*contact us*/
 
-#social-buttons button
-{
-color: white
-align: center;
+#social-buttons {
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
 }
 
 .btn-twitter {
-background: #00acee;
-border-color: #009ad5;
+  background: #00acee;
+  border-color: #009ad5;
+  float: left;
 }
+
 .btn-facebook {
-background: #4868ac;
-border-color: #314776;
-}
-.btn-pintrest {
+  background: #4868ac;
+  border-color: #314776;
+  float: left;
+  }
+
+.btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
+  float: left;
+}
