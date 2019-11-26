@@ -134,7 +134,7 @@ hr {
 
 .boxed1 {
   border: 4px solid;
-  border-color: rgb(250, 242, 11);
+  border-color: rgb(252, 248, 126);
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -148,7 +148,7 @@ hr {
 
 .boxed2 {
   border: 4px solid;
-  border-color: rgb(253, 177, 4);
+  border-color: rgb(251, 140, 69);
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -162,7 +162,7 @@ hr {
 
 .boxed3 {
   border: 4px solid;
-  border-color: rgb(251, 14, 243);
+  border-color: rgb(232, 137, 29);
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -172,7 +172,7 @@ hr {
 
 .boxed4 {
   border: 4px solid;
-  border-color: rgb(96, 251, 7);
+  border-color: rgb(139, 11, 46);
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -186,7 +186,7 @@ hr {
 
 .boxed5 {
   border: 4px solid;
-  border-color: rgb(18, 253, 248);
+  border-color: rgb(93, 42, 103);
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -410,10 +410,12 @@ align: center;
 background: #00acee;
 border-color: #009ad5;
 }
+
 .btn-facebook {
 background: #4868ac;
 border-color: #314776;
 }
-.btn-pintrest {
+
+.btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
