@@ -67,6 +67,12 @@ color:  #b35900;
 margin-top: 20px;
 }
 
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #000000;
+}
+
 #title-list {
   font-size: 2em;
   font-family: "Roboto Condensed" , sans-serif;
