@@ -51,7 +51,7 @@ header img {
 
 #home-page {
   height: 100%;
-  background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
+  background-image: url(header-image.jpeg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -62,10 +62,10 @@ header img {
 h1 {
 padding-top: 150px;
 text-align: center;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 font-size: 10em;
-font-family: "Roboto Condensed" , sans-serif;
-color: rgb(143,188,143);
+font-family: 'Montserrat', sans-serif;
+text-shadow: 2px 2px 	#111111;
+color: #111111;
 margin-top: 20px;
 }
 
@@ -76,25 +76,25 @@ margin-top: 20px;
 
 #quote {
   list-style-type: none;
-  font-size: 40px;
-  font-family: "Roboto Condensed", sans-serif;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #000000;
   padding-top: 20px;
 }
 
 #upper {
-  margin-left: 10%
+  margin-left: 5%
 }
 #middle {
-  margin-left:15%
+  margin-left:10%
 }
 #lower {
-  margin-left:20%
+  margin-left:15%
 }
 #name {
   margin-left: 10%;
   font-style: italic;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
@@ -113,6 +113,7 @@ margin-top: 20px;
   color: rgb(143,188,143);
   text-align-last: center;
   font-size: 80px;
+  font-family: 'Permanent Marker', cursive;
   display: flex;
   justify-content: centre;
   align-items: centre;
