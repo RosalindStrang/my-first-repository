@@ -125,6 +125,9 @@ margin-top: 20px;
   color: rgb(70, 70, 72);
 }
 
+.boxed {
+  border: 1px solid green;
+}
 
 /*Top tips*/
 
