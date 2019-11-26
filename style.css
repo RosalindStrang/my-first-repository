@@ -45,12 +45,13 @@ header img {
   height: 70px;
   float: left;
   margin-top: 0%;
+
 }
 
 #home-page {
   height: 100%;
   background-image: url(https://imgix.bustle.com/uploads/image/2019/9/25/efee3ec4-9390-490b-8dc7-feefdcf19250-stocksy_txp51b11e78tvt200_small_1247229.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 800px;
@@ -101,7 +102,10 @@ margin-top: 20px;
 /*Info page*/
 
 #why-page {
-  background-image: url(jumper.jpeg)
+  background-image: url(jumper.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 #why-title {
@@ -124,6 +128,14 @@ margin-top: 20px;
 
 /*Top tips*/
 
+#top-tips-page {
+  background-image: url(marble-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
 #top-tips-header{
   text-align-last: center;
   font-size: 80px;
@@ -131,40 +143,35 @@ margin-top: 20px;
   justify-content: centre;
   align-items: centre;
   flex-direction:column;
-
 }
 
 #top-tips-subheader{
-  background-color: white;
   font-size: 40px;
   font-family: "Roboto Condensed" , sans-serif;
-
 }
 
 #top-tips-body {
-  background-color: white;
   font-size: 30px;
   font-family: "Roboto Condensed" , sans-serif;
 }
 
- .row {
+.row {
    display: flex;
    flex-wrap: wrap;
    padding: 0 20px;
  }
 
- .column {
+.column {
      flex: 50%;
      max-width: 50%;
      padding: 5px;
-
    }
 
-   .column img {
+.column img {
   margin-top: 8px;
   vertical-align: middle;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: auto;
+  max-height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -176,15 +183,14 @@ margin-top: 20px;
 }
 
 #graphic-column {
-  background-color: white;
   font-size: 30px;
   font-family: "Roboto Condensed" , sans-serif;
   padding: 20px;
 }
 
 #icons {
-  width: 70%;
-  height: 40%;
+  width: 100%;
+  height: auto%;
   align-items: center;
 }
 
@@ -210,15 +216,16 @@ h3 {
 
 }
 
-.mapouter {
+.gmap_canvas {
   position: relative;
   width: 100%;
   max-width: 1000px;
+  text-align: centre;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#google-map {
-  text-align: centre;
-}
 
 /*contact us*/
 
