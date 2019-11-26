@@ -53,6 +53,7 @@ header img {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 800px;
   padding: 0px;
 }
@@ -256,20 +257,28 @@ h3 {
 
 /*contact us*/
 
-#social-buttons button
-{
-color: white
-align: center;
+#social-buttons {
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
 }
 
 .btn-twitter {
-background: #00acee;
-border-color: #009ad5;
+  background: #00acee;
+  border-color: #009ad5;
+  float: left;
 }
+
 .btn-facebook {
-background: #4868ac;
-border-color: #314776;
-}
-.btn-pintrest {
+  background: #4868ac;
+  border-color: #314776;
+  float: left;
+  }
+
+.btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
+  float: left;
+}
