@@ -101,7 +101,7 @@ margin-top: 20px;
 /*Info page*/
 
 #why-page {
-  background-image: url(jumper.jpeg);
+  background-image: url(orange-image.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ margin-top: 20px;
   color: rgb(143,188,143);
   text-align-last: center;
   font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: centre;
   align-items: centre;
@@ -193,7 +193,7 @@ margin-top: 20px;
 /*Top tips*/
 
 #top-tips-page {
-  background-image: url(marble-background.jpg);
+  background-image: url(jumper.jpeg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
