@@ -126,7 +126,8 @@ margin-top: 20px;
 }
 
 .boxed1 {
-  border: 4px solid pink;
+  border: 4px solid;
+  border-color: rgb(250, 242, 11);
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
