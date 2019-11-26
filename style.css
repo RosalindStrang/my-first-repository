@@ -126,10 +126,35 @@ margin-top: 20px;
   color: rgb(70, 70, 72);
 }
 
-.boxed {
-  border: 1px solid green;
+.boxed1 {
+  border: 1px solid red;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
+.boxed2 {
+  border: 1px solid green;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.boxed3 {
+  border: 1px solid green;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.boxed4 {
+  border: 1px solid green;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.boxed5 {
+  border: 1px solid green;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 /*Top tips*/
 
 #top-tips-page {
