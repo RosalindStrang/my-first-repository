@@ -132,6 +132,10 @@ hr {
   text-align: center;
 }
 
+#icon1 {
+  float: right;
+}
+
 
 .flex-container {
   display: inline-block;
@@ -142,6 +146,67 @@ hr {
   align-items: center;
 
 }
+
+
+
+
+#why-page1 {
+  background-image: url(orange-image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#hr1 {
+  margin-left: 30%;
+}
+
+.aboutpics{
+  border-radius: 10%;
+}
+
+
+#recycle{
+  height: 180px;
+  float: left;
+  margin-right: 50px;
+}
+
+#savewater{
+  height: 180px;
+  float: left;
+  margin-right: 50px;
+}
+
+#whysubtitle1 {
+  margin-left: 26%;
+}
+
+#whysubtitle2 {
+  margin-left: 28%;
+}
+
+#whytitle {
+  color: black;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Top tips*/
