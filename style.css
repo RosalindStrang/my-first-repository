@@ -132,71 +132,18 @@ hr {
   text-align: center;
 }
 
-.boxed1 {
-  border: 4px solid;
-  border-color: rgb(252, 248, 126);
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 55%;
-  height: 170px;
+
+.flex-container {
   display: inline-block;
+  max-width: 60%;
   vertical-align: top;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.boxed2 {
-  border: 4px solid;
-  border-color: rgb(251, 140, 69);
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 40%;
-  height: 170px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-}
 
-.boxed3 {
-  border: 4px solid;
-  border-color: rgb(232, 137, 29);
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center;
-}
-
-.boxed4 {
-  border: 4px solid;
-  border-color: rgb(139, 11, 46);
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 45%;
-  height: 200px;
-  display: inline-block;
-  vertical-align: bottom;
-  text-align: center;
-}
-
-.boxed5 {
-  border: 4px solid;
-  border-color: rgb(93, 42, 103);
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 50%;
-  height: 200px;
-  display: inline-block;
-  vertical-align: bottom;
-  text-align: center;
-}
 /*Top tips*/
 
 #top-tips-page {
@@ -220,6 +167,7 @@ hr {
 #top-tips-subheader{
   font-size: 40px;
   Font-family:"Montserrat" , sans-serif;
+  color: black;
 }
 
 #top-tips-body {
@@ -227,18 +175,15 @@ hr {
   font-family: "Roboto Condensed" , sans-serif;
 }
 
-#column1 {
+
+#talks-events {
   background-color: black;
 }
 
-
-.service-box {
-  max-width: 400px;
-}
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 700px;
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
@@ -250,7 +195,7 @@ hr {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(255, 134, 227, 0.9);
+  background: #FF652F;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -299,15 +244,21 @@ hr {
     .portfolio-box-caption-content
     .project-category {
     font-size: 25px;
-    font-family:"Montserrat" , sans-serif;
   }
-  .portfolio-box
+
+.portfolio-box
     .portfolio-box-caption
     .portfolio-box-caption-content
     .project-name {
     font-size: 15px;
-    font-family: 'Homemade Apple', cursive;
-  }
+    font-family: "Monserrat", sans-serif;
+    }
+
+#description{
+  font-family: 'Pathway gothic one', sans-serif;
+  font-size: 18px
+}
+
 }
 .text-primary {
   color: #ff86e3 !important;
@@ -322,13 +273,6 @@ hr {
 .btn-xl {
   padding: 1rem 2rem;
 }
-.btn-primary {
-  background-color: #ff86e3;
-  border-color: #ff86e3;
-}
-.btn-light {
-  color: #ff86e3;
-}
 
 .btn-light:active,
 .btn-light:focus,
@@ -341,7 +285,7 @@ hr {
 .btn-primary:focus,
 .btn-primary:hover {
   color: #fff;
-  background-color: #9669fe !important;
+  background-color: #0000 !important;
 }
 .btn-primary:active,
 .btn-primary:focus {
