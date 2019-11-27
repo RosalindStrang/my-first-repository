@@ -228,7 +228,7 @@ hr {
 }
 
 #column1 {
-  background-color: black; 
+  background-color: black;
 }
 
 
@@ -298,13 +298,15 @@ hr {
     .portfolio-box-caption
     .portfolio-box-caption-content
     .project-category {
-    font-size: 16px;
+    font-size: 25px;
+    font-family:"Montserrat" , sans-serif;
   }
   .portfolio-box
     .portfolio-box-caption
     .portfolio-box-caption-content
     .project-name {
-    font-size: 22px;
+    font-size: 15px;
+    font-family: 'Homemade Apple', cursive;
   }
 }
 .text-primary {
