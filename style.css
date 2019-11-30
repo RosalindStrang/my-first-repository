@@ -117,23 +117,19 @@ hr {
   color: rgb(143,188,143);
   text-align-last: center;
   font-size: 80px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
-  justify-content: centre;
-  align-items: centre;
-  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: white;
 }
 
 #why-body {
   font-size: 20px;
-  font-family: "verdana" sans-serif;
+  font-family: "verdana", sans-serif;
   color: rgb(70, 70, 72);
   text-align: center;
-}
-
-#icon1 {
-  float: right;
 }
 
 
@@ -147,8 +143,7 @@ hr {
 
 }
 
-
-
+/*Why Page 1*/
 
 #why-page1 {
   background-image: url(orange-image.jpg);
@@ -161,52 +156,73 @@ hr {
   margin-left: 30%;
 }
 
-.aboutpics{
+#whytitle1 {
+  color: black;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.whypics {
   border-radius: 10%;
 }
 
+.whybody1 {
+  margin-left: 19%;
+}
 
-#recycle{
+#recycle {
   height: 180px;
   float: left;
   margin-right: 50px;
 }
 
-#savewater{
+#savewater {
   height: 180px;
   float: left;
+  margin-right: 50px;
+}
+
+#carbonfootprint {
+  height: 147px;
+  float: left;
+  margin-left: 38px;
+  margin-right: 50px;
+}
+
+#animalwelfare {
+  height: 150px;
+  float: left;
+  margin-left: 35px;
+  margin-right: 50px;
+}
+
+#humanrights {
+  height: 150px;
+  float: left;
+  margin-left: 30px;
   margin-right: 50px;
 }
 
 #whysubtitle1 {
-  margin-left: 26%;
+  margin-left: 27.5%;
 }
 
 #whysubtitle2 {
-  margin-left: 28%;
+  margin-left: 28.5%;
 }
 
-#whytitle {
-  color: black;
-  text-align: center;
-  font-size: 80px;
-  font-family: 'Montserrat', sans-serif;
-
+#whysubtitle3 {
+  margin-left: 23.5%;
 }
 
+#whysubtitle4 {
+  margin-left: 24.5%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#whysubtitle5 {
+  margin-left: 24.5%;
+}
 
 
 /*Top tips*/
