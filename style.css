@@ -8,7 +8,7 @@ padding:0;
 .topnav {
     background-color: #333;
     overflow: hidden;
-    height: 60px;
+    height: 100px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,7 +16,8 @@ padding:0;
     z-index: 9999;
 }
 
-.topnav a {
+
+.active {
     float: right;
     color: #f2f2f2;
     font-size: 15px;
@@ -25,54 +26,63 @@ padding:0;
     text-decoration: underline black;
     text-decoration-color: #90EE90;
     font-size: 20px;
-    height: 60px;
-    padding-top: 15px;
+    height: 80px;
+    padding-top: 40px;
 }
 
-.topnav a:hover {
+#link:hover {
     background-color: #555;
     color: white;
+    height: 100%;
 }
 
-.topnav a:active {
+#link:active {
     background-color: rgb(143,188,143);
     color: white;
 }
 
-#navtitle {
-  font-size: 10em;
+.navbar-brand {
+  font-size: 30px;
+  padding-top: 0px;
+  text-shadow: 2px 2px 	#ffffff;
+  color: #408000 ;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  font-weight: bold;
+
 }
+
+.navbar-brand:hover{
+  color:white;
+}
+
+.navbar-brand:active{
+  color: orange:
+}
+
+.topnav img {
+  height: 20%;
+  width: 20%;
+}
+
 /*Home page*/
 
 header img {
   height: 100%;
   margin-top: 0%;
 
-
 }
 
 #home-page {
   margin-top:-20px;
   margin-bottom:-20px;
-  background-image: url(header-image.jpeg);
+  background-image: url(my-post2.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 1200px;
   padding: 0px;
 }
 
-h1 {
-padding-top: 150px;
-text-align: center;
-font-size: 10em;
-font-family: "Montserrat", sans-serif;
-text-shadow: 2px 2px 	#ffffff;
-color: #b35900;
-margin-top: 20px;
-}
 
 hr {
   max-width: 100px;
@@ -85,6 +95,7 @@ hr {
   font-size: 2em;
   Font-family:"Montserrat", sans-serif;
   color: #cc6600;
+  padding-top: 20em;
 }
 
 #quote {
@@ -92,19 +103,19 @@ hr {
   font-size: 45px;
   font-family: "Homemade Apple", "cursive";
   color: #000000;
-  padding-top: 20px;
+  padding-top: 5em;
 }
 
 #upper {
-  margin-left: 14%
+  margin-left: 5%
 }
 
 #middle {
-  margin-left: 35%
+  margin-left: 10%
 }
 
 #lower {
-  margin-left: 60%
+  margin-left: 15%
 }
 
 #name {
@@ -116,7 +127,7 @@ hr {
 /*Why Page 1*/
 
 #why-page1 {
-  background-image: url(orange-image.jpg);
+  background-color:#D60200;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -195,35 +206,7 @@ hr {
 }
 
 
-/*Top tips*/
-
-#top-tips-page {
-  background-image: url(jumper.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-#top-tips-header {
-  text-align-last: center;
-  Font-family:"Montserrat", sans-serif;
-  font-size: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#top-tips-subheader {
-  font-size: 40px;
-  Font-family:"Montserrat", sans-serif;
-  color: black;
-}
-
-#top-tips-body {
-  font-size: 30px;
-  font-family: "Roboto Condensed", sans-serif;
-}
+/*Talks/events boxes & map*/
 
 #talks-events {
   background-color: black;
@@ -401,6 +384,40 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+
+/*Top tips*/
+
+#top-tips-page {
+  background-color: #FEA4AE;;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#top-tips-header {
+  text-align-last: center;
+  Font-family:"Montserrat", sans-serif;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#top-tips-subheader {
+  font-size: 40px;
+  Font-family:"Montserrat", sans-serif;
+  color: black;
+}
+
+#top-tips-body {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 
 /*Footer*/
 #footer {
