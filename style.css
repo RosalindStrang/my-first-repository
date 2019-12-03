@@ -1,4 +1,10 @@
 /*Navbar*/
+
+html, body {
+margin:0;
+padding:0;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -33,20 +39,23 @@
     color: white;
 }
 
-.container-fluid {
-  width: 100%;
-  height: 100%;
+#navtitle {
+  font-size: 10em;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-
 /*Home page*/
 
 header img {
-  height: 70px;
+  height: 100%;
   margin-top: 0%;
+
+
 }
 
 #home-page {
-  height: 100%;
+  margin-top:-20px;
+  margin-bottom:-20px;
   background-image: url(header-image.jpeg);
   background-size: cover;
   background-attachment: fixed;
@@ -66,9 +75,10 @@ margin-top: 20px;
 }
 
 hr {
-  max-width: 50px;
+  max-width: 100px;
   border-width: 3px;
   border-color: #000000;
+  color: #b35900;
 }
 
 #title-list {
@@ -417,4 +427,63 @@ hr {
 .btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
+}
+
+
+
+
+/*contact html*/
+#body2 {
+    background-image: url("change.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    padding: 0px;
+    font-family:"Montserrat", sans-serif;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 20px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family:"Montserrat", sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#contact-box {
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  margin-top: 60px;
+  width: 50%;
+}
+
+#questions {
+  color: white;
+  font-size: 20px;
+  font-family:"Montserrat", sans-serif;
+
 }
