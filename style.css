@@ -48,7 +48,6 @@ padding:0;
   color: #408000 ;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-
 }
 
 .navbar-brand:hover{
@@ -60,7 +59,7 @@ padding:0;
 }
 
 .topnav img {
-  height: 20%;
+  height: 110%;
   width: 20%;
 }
 
@@ -75,7 +74,7 @@ header img {
 #home-page {
   margin-top:-20px;
   margin-bottom:-20px;
-  background-image: url(my-post2.png);
+  background-image: url(images/my-post2.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -127,7 +126,7 @@ hr {
 /*Why Page 1*/
 
 #why-page1 {
-  background-color:#D60200;
+  background-image: linear-gradient(#F57D0C, #F95B3F);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -152,6 +151,7 @@ hr {
 
 .whybody1 {
   margin-left: 19%;
+  font-size: 20px;
 }
 
 #recycle {
@@ -189,22 +189,27 @@ hr {
 
 #whysubtitle1 {
   margin-left: 27.5%;
+  font-size: 30px;
 }
 
 #whysubtitle2 {
   margin-left: 28.5%;
+  font-size: 30px;
 }
 
 #whysubtitle3 {
   margin-left: 23.5%;
+  font-size: 30px;
 }
 
 #whysubtitle4 {
   margin-left: 24.5%;
+  font-size: 30px;
 }
 
 #whysubtitle5 {
   margin-left: 24.5%;
+  font-size: 30px;
 }
 
 
@@ -404,31 +409,29 @@ margin-top: 20px;
 /*Top tips*/
 
 #top-tips-page {
-  background-color: #FEA4AE;;
+  background-image: linear-gradient(#F57D0C, #F95B3F);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 #top-tips-header {
-  text-align-last: center;
-  Font-family:"Montserrat", sans-serif;
+  color: black;
+  text-align: center;
   font-size: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
 }
 
 #top-tips-subheader {
-  font-size: 40px;
+  font-size: 30px;
   Font-family:"Montserrat", sans-serif;
   color: black;
 }
 
 #top-tips-body {
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
+  color: black;
 }
 
 
@@ -464,7 +467,7 @@ margin-top: 20px;
 
 /*contact html*/
 #body2 {
-    background-image: url("change.jpeg");
+    background-image: url("images/change.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
