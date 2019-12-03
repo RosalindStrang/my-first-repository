@@ -127,7 +127,7 @@ hr {
 /*Why Page 1*/
 
 #why-page1 {
-  background-color:#D60200;
+  background-image: linear-gradient(#F57D0C, #B10831);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
