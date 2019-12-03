@@ -401,7 +401,7 @@ margin-top: 20px;
 /*Top tips*/
 
 #top-tips-page {
-  background-color: #FEA4AE;;
+  background-image: linear-gradient(#F57D0C, #B10831);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
