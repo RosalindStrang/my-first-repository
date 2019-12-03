@@ -393,7 +393,7 @@ margin-top: 20px;
 
 
 .gmap_canvas {
-  position: relative;
+  position: center;
   width: 100%;
   max-width: 1000px;
   text-align: center;
