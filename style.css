@@ -212,6 +212,16 @@ hr {
   background-color: black;
 }
 
+h2 {
+padding-top: 15px;
+text-align: center;
+font-size: 7em;
+font-family: "Montserrat", sans-serif;
+text-shadow: 2px 2px 	#ffffff;
+color: #b35900;
+margin-top: 20px;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
