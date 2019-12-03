@@ -75,7 +75,7 @@ header img {
 #home-page {
   margin-top:-20px;
   margin-bottom:-20px;
-  background-image: url(my-post2.png);
+  background-image: url(images/my-post2.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -465,7 +465,7 @@ margin-top: 20px;
 
 /*contact html*/
 #body2 {
-    background-image: url("change.jpeg");
+    background-image: url("images/change.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
