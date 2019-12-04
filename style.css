@@ -130,6 +130,8 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin-top:-20px;
+  margin-bottom:-20px;
 }
 
 #hr1 {
@@ -215,6 +217,7 @@ hr {
 
 #talks-events {
   background-color: black;
+  margin-top: 0;
 }
 
 h2 {
